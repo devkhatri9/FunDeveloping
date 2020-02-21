@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="col s3  hide-on-small-and-down">
+            <div class="col s12 ">
+                <div class="card-panel">
+                    <center>
+                        <div class="row">
+                            <div class="">
+                                <img class="circle"  src="materialize/images/man.png">
+                            </div>
+                        </div>
+                        <strong style="font-size: 20px"> ${sessionScope.user.firstName} ${sessionScope.user.lastName}</strong>
+
+                    </center>
+
+                </div>
+            </div>
+
+            <div class=" col s12" >
+                <div class="card red-text">
+                    <div class="card-content red-text text-darken-1">
+                        <span class="card-title"> Account Settings</span>
+                        <div class="card-action" >
+                            <a href="account.jsp" class="blue-grey-text">Profile Information</a>
+                        </div>
+                        <div class="card-action">
+                            <a class="notifications blue-grey-text" data-position="top" href="notifications.jsp" >My Notifications</a>
+                        </div>
+                        <div class="card-action">
+                            <a class="modal-trigger blue-grey-text" data-position="top" href="#changepassword" >Change Password</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
